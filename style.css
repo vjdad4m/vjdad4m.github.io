@@ -13,7 +13,6 @@ body {
     letter-spacing: 6px;
     margin-top: 4px;
     padding: 0;
-    min-width: 320px;
 }
 
 section {
@@ -33,9 +32,9 @@ a {
 }
 
 table {
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 20px;
-    margin: 2px;
-    border-collapse: separate;
 }
 
 .row {
@@ -61,12 +60,7 @@ td {
     letter-spacing: 2px;
     text-align: justify;
     justify-content: center;
-}
-
-tr {
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
+    padding-right: 10px;
 }
 
 hr {
@@ -76,7 +70,12 @@ hr {
     border: none;
 }
 
-.collection td {
-    text-align: justify;
-    min-width: 40%;
+.collection ul{
+    text-align: center;
+    float: center;
+    list-style-position: inside;
+    word-wrap: break-word;
+    padding-bottom: 14px;
+    letter-spacing: 2px;
+    list-style-type: square;
 }
