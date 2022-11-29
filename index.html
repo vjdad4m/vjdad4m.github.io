@@ -5,31 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>vajdadam.com</title>
+    <link rel="shortcut icon" href="res/me.jpeg" type="image/x-icon">
+    <title>Adam Vajda</title>
 </head>
 <body>
-    <div class="header container">
-        <div class="row">
-            <img src="res/me.jpg" class="profile">
-            <h1>Adam Vajda</h1>
-            <big><p>My goal is to have an impact on the future.</p></big>
-            <a href="https://twitter.com/vajdad4m"><img src="res/twitter.svg" class="linkimg"></a>
-            &nbsp;&nbsp;
-            <a href="https://github.com/vjdad4m"><img src="res/github.svg" class="linkimg"></a>
-            &nbsp;&nbsp;
-            <a href="mailto:vajdaad4m@gmail.com"><img src="res/email.svg" class="linkimg"></a>
-            <br><br>
-            <hr width=256>
+    <div class="introduction">
+        <img src="res/me.jpeg" width="240px" class="pic">
+        <h1>Adam Vajda</h1>
+        <h2>My <span>goal</span> is to have an <span>impact</span> on the <span>future</span>.</h2>
+    </div>
+    <div class="socials">
+        <ul class="links">
+            <li><a href="https://github.com/vjdad4m">[github]</a></li>
+            <li><a href="https://twitter.com/vajdad4m">[twitter]</a></li>
+            <li><a href="https://instagram.com/vajdad4m">[insta]</a></li>
+            <li><a href="https://youtube.com/@vajdad4m">[youtube]</a></li>
+            <li><a href="mailto:vajdaad4m@gmail.com">[email]</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <hr>
+        <div class="projects container">
+            <h1>projects</h1>
+            <br>
+            <div class="project">
+                <div class="image">
+                    <img src="res/projects/seethru.png">
+                </div>
+                <div class="desc">
+                    <a href="https://github.com/vjdad4m/see-thru/">see-thru</a> uses a convolutional neural network on images captured by a <a href="https://walabot.com/">Walabot</a> FMCW radar to detect human pose.
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="image">
+                    <img src="res/projects/ecg.png">
+                </div>
+                <div class="desc">
+                    Electrocardiographic signal analysis, health status estimation using a self-built instrument, arduino uno and an <a href="https://www.sparkfun.com/products/12650">AD8323</a> ECG sensor.
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="image">
+                    <img src="res/projects/farfler.png">
+                </div>
+                <div class="desc">
+                    <a href="https://farfler.com/">Farfler</a> self-driving wheelchair hardware and software prototype under development.
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="image">
+                    <img src="res/projects/logo.png">
+                </div>
+                <div class="desc">
+                    <a href="https://vajdadam.com/">This</a> website! Created with pure HTML and CSS. The image on the left was created using the amazing <a href="https://openai.com/dall-e-2/">DALLE-2</a>.
+            </div>
+        </div>
+
+        <hr>
+        <div class="achievements container">
+            <h1>achievements</h1>
+            <br>
+            <h2>languages</h2>
+            <ul>
+                <li>Hungarian 🇭🇺 [N]</li>
+                <li>English 🇬🇧 [C1]</li>
+                <li>German 🇩🇪 [B2]</li>
+                <li>Russian 🇷🇺 [B2]</li>
+                <li>Spanish 🇪🇸 [beginner]</li>
+                <li>Japanese 🇯🇵 [beginner]</li>
+            </ul>
         </div>
     </div>
-    <div class="container">
-        <big><h1>projects</h1></big>
 
-        <h2><a href="https://github.com/vjdad4m/see-thru">see-thru</a></h2>
-        <p>Pose recognition using machine learning and radar imaging.</p>
-
-        <h2><a href="https://github.com/vjdad4m/tech21">tech21</a></h2>
-        <p>I collected a list of future technologies of the late 21st century.</p>
-    </div>
+    <br><br><br><br><br><br><br><br>
 </body>
 </html>
