@@ -1,200 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta description="Adam Vajda's personal portfolio.">
-      <meta content="Adam Vajda's personal portfolio" property="og:title" />
-      <meta content="A list of my projects" property="og:description" />
-      <meta content="https://vajdadam.com/" property="og:url" />
-      <meta content="https://vajdadam.com/res/me.jpeg" property="og:image" />
-      <meta content="#43B581" data-react-helmet="true" name="theme-color" />
-      <link rel="shortcut icon" href="res/me.jpeg" type="image/x-icon">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <title>Adam Vajda</title>
-   </head>
-   <body style="background-color: #f2f2f2;">
-      <style>
-         body {
-         margin-top: 20px;
-         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-         }
-         span {
-         color: #061422;
-         font-weight: bold;
-         }
-         .card {
-         background-color: #fff;
-         border-radius: 10px;
-         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-         transition: all 0.3s ease-in-out;
-         }
-         .card:hover {
-         transform: translateY(-5px);
-         box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
-         }
-         .card-title a {
-         color: #061422;
-         text-decoration: none;
-         }
-         .card-text {
-         color: #4d4d4d;
-         }
-         .table th {
-         background-color: #fff;
-         color: #061422;
-         border: none;
-         }
-         .table td {
-         background-color: #fff;
-         color: #4d4d4d;
-         border: none;
-         }
-         .table td:first-child {
-         font-weight: bold;
-         }
-         .list-inline-item a {
-         color: #4d4d4d;
-         }
-         .list-inline-item a:hover {
-         color: #061422;
-         }
-      </style>
-      <header class="container-fluid">
-         <div class="row justify-content-center align-items-center">
-            <div class="col-md-2 text-center">
-               <img src="res/me.jpeg" class="img-fluid rounded-circle" alt="Adam Vajda" width="240">
-            </div>
-            <div class="col-md-4 text-center">
-               <h1 class="display-4" style="color: #061422;">Adam Vajda</h1>
-               <h2 class="lead">My <span>goal</span> is to <span>impact</span> the <span>future</span>.</h2>
-               <ul class="list-inline mt-4">
-                  <li class="list-inline-item"><a href="https://github.com/vjdad4m" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
-                  <li class="list-inline-item"><a href="https://twitter.com/vajdad4m" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
-                  <li class="list-inline-item"><a href="https://instagram.com/vajdad4m" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
-                  <li class="list-inline-item"><a href="https://youtube.com/@vajdad4m" target="_blank"><i class="fa fa-youtube fa-2x"></i></a></li>
-                  <li class="list-inline-item"><a href="mailto:vajdaad4m@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i></a></li>
-               </ul>
-            </div>
-         </div>
-      </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta description="Adam Vajda's personal portfolio.">
+  <meta content="Adam Vajda's personal portfolio" property="og:title" />
+  <meta content="A list of my projects" property="og:description" />
+  <meta content="https://vadm.dev/" property="og:url" />
+  <meta content="https://vadm.dev/res/me.png" property="og:image" />
+  <meta content="#1D2630" data-react-helmet="true" name="theme-color" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/loading.css">
+  <link rel="shortcut icon" href="res/me.png" type="image/x-icon">
+  <title>Adam Vajda</title>
+</head>
+<body>
+  <div class="spinner-box">
+      <div class="blue-orbit leo"></div>
+
+      <div class="green-orbit leo"></div>
+      
+      <div class="red-orbit leo"></div>
+      
+      <div class="white-orbit w1 leo">
+      </div><div class="white-orbit w2 leo">
+      </div><div class="white-orbit w3 leo">
+      </div>
+  </div>
+  <div class="site" style="visibility: hidden;">
+    <div class="cursor">
+      <div class="cursor__ball cursor__ball--big ">
+        <svg height="30" width="30">
+          <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+        </svg>
+      </div>
+      
+      <div class="cursor__ball cursor__ball--small">
+        <svg height="10" width="10">
+          <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+        </svg>
+      </div>
+    </div>
+
+    <section class="intro">
+      <div class="nav-items">
+        <ul>
+          <li><a href="#about" class="hoverable">About</a></li>
+          <li><a href="#projects" class="hoverable">Projects</a></li>
+          <li><a href="#contact" class="hoverable">Contact</a></li>
+        </ul>
+      </div>
+      <div class="inner unselectable">
+        <div class="content hoverable">
+          Adam <br>
+          Vajda
+        </div>
+      </div>
+    </section>
+    <section class="about section unselectable" id="about">
       <div class="content">
-      <hr>
-      <div class="container">
-         <h1 class="text-center" style="color: #061422;">Projects</h1>
-         <hr>
-         <div class="row">
-            <div class="col-md-4 mb-4">
-               <div class="card">
-                  <img src="res/projects/seethru.jpg" class="card-img-top" alt="See-Thru">
-                  <div class="card-body">
-                     <h5 class="card-title"><a href="https://github.com/vjdad4m/see-thru/" style="color: #061422;">See-Thru</a></h5>
-                     <p class="card-text">Uses a convolutional neural network on images captured by a Walabot FMCW radar to detect human pose.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-4 mb-4">
-               <div class="card">
-                  <img src="res/projects/farfler.jpg" class="card-img-top" alt="Farfler">
-                  <div class="card-body">
-                     <h5 class="card-title"><a href="https://farfler.com/" style="color: #061422;">Farfler</a></h5>
-                     <p class="card-text">Self-driving wheelchair hardware and software prototype under development.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-4 mb-4">
-               <div class="card">
-                  <img src="res/projects/keysniff.png" class="card-img-top" alt="Keysniff">
-                  <div class="card-body">
-                     <h5 class="card-title"><a href="https://github.com/vjdad4m/keysniff/" style="color: #061422;">Keysniff</a></h5>
-                     <p class="card-text">Reconstructs typed text from audio recordings with astonishing accuracy.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-4 mb-4">
-               <div class="card">
-                  <img src="res/projects/polyphub.png" class="card-img-top" alt="PolypHUB">
-                  <div class="card-body">
-                     <h5 class="card-title" style="color: #061422;"><a href="https://polyphub.hu/">PolypHUB</a></h5>
-                     <p class="card-text">Deepfake detection using AI with custom authentication algorithm using face motion.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-4 mb-4">
-               <div class="card">
-                  <img src="res/projects/bplive.png" class="card-img-top" alt="Budapest Live">
-                  <div class="card-body">
-                     <h5 class="card-title" style="color: #061422;"><a href="https://bplive.hu/">Budapest Live</a></h5>
-                     <p class="card-text">Business location recommendations based on text descriptions with live visuals.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-4 mb-4">
-               <div class="card">
-                  <img src="res/projects/ecg.jpg" class="card-img-top" alt="ECG">
-                  <div class="card-body">
-                     <h5 class="card-title" style="color: #061422;">Electrocardiographic Signal Analysis</h5>
-                     <p class="card-text">Health status estimation using a self-built instrument, Arduino Uno, and an AD8232 ECG sensor.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-4 mb-4">
-               <div class="card">
-                  <img src="res/projects/logo.png" class="card-img-top" alt="Website">
-                  <div class="card-body">
-                     <h5 class="card-title"><a href="https://vajdadam.com/" style="color: #061422;">This Website</a></h5>
-                     <p class="card-text">Created with HTML and bootstrap.css. The image above was created using the amazing DALLE-2.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
+        <h2 class="hoverable unselectable">About</h2>
+        <div class="center">
+          <img src="res/me.png" alt="me" class="unselectable">
+          <br>
+          <p>
+            <i>I'm passionate about leveraging my skills in <br> computer science and AI to drive innovations in technology.</i>
+          </p>
+          <br>
+          <p>
+            I speak English, Hungarian, German, Russian and Spanish.
+          </p>
+        </div>
       </div>
-      <hr>
-      <div class="container">
-         <h1 class="text-center" style="color: #061422;">Achievements</h1>
-         <hr>
-         <div class="row justify-content-center">
-            <div class="col-md-8">
-               <h2 style="color: #061422;">Languages</h2>
-               <table class="table table-bordered table-hover table-striped">
-                  <thead class="thead-dark">
-                     <tr>
-                        <th scope="col">Language</th>
-                        <th scope="col">Proficiency Level</th>
-                     </tr>
-                  </thead>
-                  <tbody>
-                     <tr>
-                        <td>Hungarian 🇭🇺</td>
-                        <td>[N] Native</td>
-                     </tr>
-                     <tr>
-                        <td>English 🇬🇧</td>
-                        <td>[C1] Advanced</td>
-                     </tr>
-                     <tr>
-                        <td>German 🇩🇪</td>
-                        <td>[C1] Advanced</td>
-                     </tr>
-                     <tr>
-                        <td>Russian 🇷🇺</td>
-                        <td>[C1] Advanced</td>
-                     </tr>
-                     <tr>
-                        <td>Spanish 🇪🇸</td>
-                        <td>[B1] Intermediate</td>
-                     </tr>
-                     <tr>
-                        <td>Japanese 🇯🇵</td>
-                        <td>[A1] Beginner</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </div>
-         </div>
+    </section>
+    <section class="section" id="projects">
+      <div class="content">
+        <h2 class="hoverable unselectable">Projects</h2>
+        <div class="container row unselectable">
+          <div class="col-md-4 mb-4">
+            <a href="https://github.com/vjdad4m/see-thru/">
+              <div class="card hoverable">
+                <img src="res/projects/seethru.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">See-Thru</h5>
+                    <p class="card-text">Uses a convolutional neural network on images captured by a Walabot FMCW radar to detect human pose.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <a href="https://farfler.com">
+              <div class="card hoverable">
+                <img src="res/projects/farfler.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Farfler</h5>
+                    <p class="card-text">Self-driving wheelchair hardware and software prototype under development.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 mb-4">  
+            <a href="https://github.com/vjdad4m/keysniff/">
+              <div class="card hoverable">
+                <img src="res/projects/keysniff.png" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Keysniff</h5>
+                    <p class="card-text">Reconstructs typed text from audio recordings with astonishing accuracy.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 mb-4">  
+            <a href="https://polyphub.hu">
+              <div class="card hoverable">
+                <img src="res/projects/polyphub.png" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">PolypHUB</h5>
+                    <p class="card-text">Deepfake detection using AI with custom authentication algorithm using face motion.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 mb-4">  
+            <a href="https://bplive.hu">
+              <div class="card hoverable">
+                <img src="res/projects/bplive.png" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Budapest Live</h5>
+                    <p class="card-text">Business location recommendations based on text descriptions with live visuals.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 mb-4">  
+            <a>
+              <div class="card hoverable">
+                <img src="res/projects/ecg.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Electrocardiographic Signal Analysis</h5>
+                    <p class="card-text">Health status estimation using a self-built instrument, Arduino Uno, and an AD8232 ECG sensor.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-md-4 mb-4">  
+            <a href="https://vajdadam.com/">
+              <div class="card hoverable">
+                <img src="res/projects/logo.png" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">This Website</h5>
+                    <p class="card-text">It was written in HTML, CSS and JavaScript.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
       </div>
-      <br><br><br><br><br><br><br><br>
-   </body>
+    </section>
+    <section class="section" id="contact">
+      <div class="content">
+        <h2 class="hoverable unselectable">Contact</h2>
+        <div class="center">
+          <p>
+            <a href="mailto:adam@farfler.com" class="hoverable" target="_blank">
+              adam@farfler.com
+            </a>
+            <div class="gap"></div>
+            <a href="https://github.com/vjdad4m" class="hoverable" target="_blank">
+              github
+            </a>
+            <div class="gap"></div>
+            <a href="https://www.x.com/vajdad4m" class="hoverable" target="_blank">
+              X
+            </a>
+            <div class="gap"></div>
+            <a href="https://www.youtube.com/@vajdad4m" class="hoverable" target="_blank">
+              youtube
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="bottom">
+    </div>
+  </div>
+  <script src="js/loading.js"></script>
+  <script src="js/TweenMax.js"></script>
+  <script src="js/cursor.js"></script>
+</body>
 </html>
